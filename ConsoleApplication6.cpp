@@ -1,20 +1,21 @@
 #include <iostream>
-using namespace std;
-int main() {
-    int mjesec, godina;
-    cout << "unesite mjesec i godinu rodjenja" << endl;
-    cin >> mjesec >> godina;
-    int a = 2021 godina;
-    int b = 9 - mjesec;
-    if (b = -1);
-    cout << "imate" << a - 1 << "godina i 7 mjeseci" << endl;
-    else if (b = -2);
-    cout << "imate" << a - 2 << "godina i 6 mjeseci" << endl;
-    else if (b = -3);
-    cout << "imate" << a - 3 << "godina i 5 mjeseci" << endl;
-    else if (b > 0);
-    cout << "imate" << a << "godina i" << b << "mjeseci" << endl;
-    else;
-    cout << "pogrijesili ste" << ;
-    return 0;
-}
+namespace std {
+int main () {
+int dan;
+int mjesec;
+cout << "unesite godinu i mjesec";
+cin >> dan >> mjesec;
+if (dan > 31) (dan < 1);
+cout << "unesite validan dan";
+if (mjesec > 12) (mjesec < 1);
+cout << "unesite validan mjesec";
+return 0;
+if (mjesec = 12);
+cout << "godisnje doba je zima, ako je dan poslije 21. decembra";
+if (mjesec = 3);
+cout << "godisnje doba je proljece, ako je dan poslije 21. marta";
+if (mjesec = 6);
+cout << "godisnje doba je ljeto, ako je dan poslije 21. juna";
+if (mjesec = 9);
+cout << "godisnje doba je jesen, ako je dan poslije 23. septembra";
+return 0;
